@@ -1,0 +1,289 @@
+#header {
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    .nav-bar {
+        .logo-box {
+            img {
+                width: 100%;
+            }
+        }
+
+        .menu-box {
+            ul {
+                li {
+                    .a {
+                        display: inline-block;
+                        text-decoration: none;
+                        text-transform: capitalize;
+                        font-family: Inter, sans-serif;
+                        font-size: 15.2px;
+                        line-height: 22.8px;
+                        font-weight: 600;
+                        padding: 30px 26px 30px 0;
+                        color:rgb(38, 42, 55);
+                        transition: 250ms ease-in;
+                        &:hover{
+                            color: #ed2775;
+                        }
+
+                        i {
+                            font-size: 12px;
+                        }
+                    }
+                }
+
+                li:first-child {
+                    position: relative;
+                    &:hover{
+                        .home-menu{
+                            opacity: 1;
+                            visibility: visible;
+                        }
+                    }
+
+                    .home-menu {
+                        opacity: 0;
+                        visibility: hidden;
+                        position: absolute;
+                        width: 250px;
+                        padding: 10px 0 10px 5px;
+                        background-color: white;
+                        transition: 250ms ease-in;
+
+                        ul {
+                            li {
+                                a {
+                                    display: inline-block;
+                                    text-decoration: none;
+                                    font-size: 14px;
+                                    line-height: 21px;
+                                    font-weight: 600;
+                                    color:rgb(38, 42, 55);
+                                    padding: 8px 20px;
+                                    transition: 250ms ease-in;
+                                }
+                                &:hover{
+                                    a{
+                                        padding: 8px 20px 8px 24px;
+                                        color:rgb(237, 39, 117)
+                                    }
+                                }
+                            }
+                            li:first-child {
+                                a{
+                                    color:rgb(237, 39, 117)
+                                }
+                            }
+                        }
+                    }
+
+                }
+                li:nth-child(2) {
+                    position: relative;
+                    &:hover{
+                        .about-menu{
+                            opacity: 1;
+                            visibility: visible;
+                        }
+                    }
+
+                    .about-menu {
+                        opacity: 0;
+                        visibility: hidden;
+                        position: absolute;
+                        width: 250px;
+                        padding: 10px 0 10px 5px;
+                        background-color: white;
+                        transition: 250ms ease-in;
+
+                        ul {
+                            li {
+                                a {
+                                    text-transform: capitalize;
+                                    display: inline-block;
+                                    text-decoration: none;
+                                    font-size: 14px;
+                                    line-height: 21px;
+                                    font-weight: 600;
+                                    color:rgb(38, 42, 55);
+                                    padding: 8px 20px;
+                                    transition: 250ms ease-in;
+                                }
+                                &:hover{
+                                    a{
+                                        padding: 8px 20px 8px 24px;
+                                        color:rgb(237, 39, 117)
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                }
+                li:nth-child(3){
+                    &:hover{
+                        .pages-menu{
+                            opacity: 1;
+                            visibility: visible;
+                        }
+                    }
+                    .pages-menu {
+                        opacity: 0;
+                        visibility: hidden;
+                        position: absolute;
+                        z-index: 1000;
+                        width: 100%;
+                        left: 0;
+                        padding: 25px 0;
+                        background-color: white;
+                        transition: 250ms ease-in;
+                         ul {
+                             width: 320px;
+                            li {
+                                a {
+                                    text-transform: capitalize;
+                                    display: inline-block;
+                                    text-decoration: none;
+                                    font-size: 14px;
+                                    line-height: 21px;
+                                    font-weight: 600;
+                                    color:rgb(38, 42, 55);                                 
+                                    padding: 8px 0;
+                                    transition: 250ms ease-in;
+                                }
+                                &:hover{
+                                    a{
+                                        padding: 8px 0 8px 4px;
+                                        color:rgb(237, 39, 117)
+                                    }
+                                }
+                                &:first-child{
+                                    padding: 12px 0;
+                                    margin: 4px 0;
+                                    font-size: 18px;
+                                    line-height: 21.6px;
+                                    font-weight: 700;
+                                    border-bottom: 1px solid rgba(174, 174, 174, 0.242);
+                                }
+                            }
+                        }
+
+                    
+                    .pages-4{
+                        width: 24%;
+                        margin-top: 5px;
+                        
+                    }
+                    
+                    }
+                }
+                li:nth-child(4) {
+                    position: relative;
+                    &:hover{
+                        .features-menu{
+                            opacity: 1;
+                            visibility: visible;
+                        }
+                    }
+
+                    .features-menu {
+                        opacity: 0;
+                        visibility: hidden;
+                        position: absolute;
+                        width: 250px;
+                        padding: 10px 0 10px 5px;
+                        background-color: white;
+                        transition: 250ms ease-in;
+
+                        ul {
+                            li {
+                                a {
+                                    text-transform: capitalize;
+                                    display: inline-block;
+                                    text-decoration: none;
+                                    font-size: 14px;
+                                    line-height: 21px;
+                                    font-weight: 600;
+                                    color:rgb(38, 42, 55);
+                                    padding: 8px 20px;
+                                    transition: 250ms ease-in;
+                                }
+                                &:hover{
+                                    a{
+                                        padding: 8px 20px 8px 24px;
+                                        color:rgb(237, 39, 117)
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                }
+                li:nth-child(5) {
+                    position: relative;
+                    &:hover{
+                        .blog-menu{
+                            opacity: 1;
+                            visibility: visible;
+                        }
+                    }
+
+                    .blog-menu {
+                        opacity: 0;
+                        visibility: hidden;
+                        position: absolute;
+                        width: 250px;
+                        padding: 10px 0 10px 5px;
+                        background-color: white;
+                        transition: 250ms ease-in;
+
+                        ul {
+                            li {
+                                a {
+                                    text-transform: capitalize;
+                                    display: inline-block;
+                                    text-decoration: none;
+                                    font-size: 14px;
+                                    line-height: 21px;
+                                    font-weight: 600;
+                                    color:rgb(38, 42, 55);
+                                    padding: 8px 20px;
+                                    transition: 250ms ease-in;
+                                }
+                                &:hover{
+                                    a{
+                                        padding: 8px 20px 8px 24px;
+                                        color:rgb(237, 39, 117)
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+
+        .button-box {
+            a {
+                font-size: 14px;
+                line-height: 21px;
+                font-weight: 600;
+                text-decoration: none;
+                color: white;
+                padding: 15px 35px;
+                text-transform: capitalize;
+                background: linear-gradient(44.44deg, #ed2775 7.79%, #ff7448 94.18%);
+                box-shadow: 0 12px 35px rgb(237, 39, 117);
+                border-radius: 50px;
+                transition: 250ms ease-in;
+
+                &:hover {
+                    background: #ed2775;
+
+                }
+            }
+        }
+    }
+}
