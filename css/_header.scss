@@ -1,8 +1,18 @@
+//<!-- ------------------------------------------------------ -->
+//<!-- ------------------------------------------------------ -->
+
+
+//<!-- ----------------------Header Start-------------------- -->
+
 #header {
     position: absolute;
-    z-index: 100;
+    z-index: 1000;
     width: 100%;
+    border-bottom: 0.2px solid rgba(230, 230, 230, 0.2);
+
     .nav-bar {
+        width: 90%;
+        margin: auto;
         .logo-box {
             img {
                 width: 100%;
@@ -21,8 +31,17 @@
                         line-height: 22.8px;
                         font-weight: 600;
                         padding: 30px 26px 30px 0;
-                        color:rgb(38, 42, 55);
                         transition: 250ms ease-in;
+                        &.white{
+                            color: white;
+                            &:hover{
+                                color: white;
+                            }
+                        }
+    
+                        &.black{
+                            color:rgb(38, 42, 55);
+                        }
                         &:hover{
                             color: #ed2775;
                         }
@@ -173,7 +192,6 @@
                     .pages-4{
                         width: 24%;
                         margin-top: 5px;
-                        
                     }
                     
                     }
@@ -272,16 +290,328 @@
                 font-weight: 600;
                 text-decoration: none;
                 color: white;
-                padding: 15px 35px;
+                padding: 17px 35px;
                 text-transform: capitalize;
                 background: linear-gradient(44.44deg, #ed2775 7.79%, #ff7448 94.18%);
-                box-shadow: 0 12px 35px rgb(237, 39, 117);
                 border-radius: 50px;
                 transition: 250ms ease-in;
+                box-shadow: #ed277640 0px 8px 24px;
 
                 &:hover {
-                    background: #ed2775;
+                background: linear-gradient(44.44deg, #ed2775 7.79%, #ed2775 94.18%);
 
+                }
+            }
+
+            .menu-icon{
+                position: relative;
+                display: none;
+                width: 35px;
+                margin: 0 15px;
+                background-color: rgb(38, 42, 55);
+                border-radius: 2px;
+                &::before{
+                    content:"";
+                    position: absolute;
+                    top: 0;
+                    width: 33px;
+                    height: 4px;
+                    background-color: white;
+                    border-radius: 5px;
+                    transition: 250ms ease-in-out;
+                }
+                &::after{
+                    content:"";
+                    position: absolute;
+                    bottom: 0;
+                    width: 33px;
+                    height: 4px;
+                    background-color: white;                    
+                    border-radius: 5px;
+                    transition: 250ms ease-in-out;
+                }
+
+                .line{
+                    border-radius: 100px;
+                    margin: 8px 0;
+                    width: 33px;
+                    height: 4px;
+                    background-color: white;
+                }
+
+/*                 .phone-menu{
+                    visibility: visible;
+                    opacity: 1;
+                    position: absolute;
+                    top: 230.5px;
+                    left: 0%;
+                    transform: translate(-50%, -50%);
+                    width: 990px;
+                    background-color: #000000;
+                } */
+            }
+
+        }
+    }
+}
+
+//<!-- ----------------------Header End---------------------- -->
+
+
+//<!-- ------------------------------------------------------ -->
+//<!-- ------------------------------------------------------ -->
+
+
+//<!-- ------------------------------------------------------ -->
+//<!-- --------------------Responsive Start------------------- -->
+//<!-- ------------------------------------------------------ -->
+
+@media (min-width: 768px) and (max-width: 990px) {
+
+    #header {
+        background-color: white;
+        z-index: 1000;
+        .nav-bar {
+            width: 95%;
+            .menu-box {
+                padding: 0 3px 0 15px;
+
+                ul {
+                    li {
+                        .a {
+                            font-size: 13px;
+                            line-height: 21px;
+                            font-weight: 600;
+                            padding: 30px 12px 30px 0;
+
+                            i {
+                                font-size: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .button-box {
+                a {
+                    font-size: 10px;
+                    line-height: 15px;
+                    padding: 10px 16px;
+                }
+            }
+        }
+    }
+}
+
+//<!-- ------------------------------------------------------ -->
+
+@media (min-width: 576px) and (max-width: 768px) {
+
+    #header {
+        position: fixed;
+        background-color: rgb(255, 255, 255);
+
+
+        .nav-bar {
+            padding: 18px 0;
+
+            .menu-box {
+                display: none;
+            }
+
+            .button-box {
+                a {
+                    font-size: 10px;
+                    line-height: 15px;
+                    padding: 10px 16px;
+                }
+
+                .menu-icon {
+                    display: block;
+                    background-color: white;
+                    &::before{
+                        background-color: rgb(38, 42, 55);
+                    }
+                    &::after{
+                        background-color: rgb(38, 42, 55);
+                    }
+                    .line{
+                        background-color: rgb(38, 42, 55);
+                    }
+
+                    &:hover {
+                        width: 29px;
+                        margin: 0 18px;
+
+                        .line {
+                            opacity: 0;
+                            visibility: hidden;
+                        }
+
+                        &::before {
+                            top: 8px;
+                            left: -3px;
+                            transform: rotate(35deg);
+                        }
+
+                        &::after {
+                            transform: rotate(-35deg);
+                            bottom: 8px;
+                            left: -3px;
+                        }
+
+                        /*                         .phone-menu{
+                            visibility: visible;
+                            opacity: 1;
+                            position: absolute;
+                            right: 495px;
+                            top: 53px;
+                            width: 100%;
+                        } */
+                    }
+                }
+            }
+        }
+    }
+}
+
+//<!-- ------------------------------------------------------ -->
+
+@media(min-width: 400px) and (max-width: 576px) {
+    #header {
+        position: fixed;
+        background-color: rgb(255, 255, 255);
+
+
+        .nav-bar {
+            padding: 18px 0;
+
+            .menu-box {
+                display: none;
+            }
+
+            .button-box {
+                a {
+                    font-size: 10px;
+                    line-height: 15px;
+                    padding: 10px 16px;
+                }
+
+                .menu-icon {
+                    display: block;
+                    background-color: white;
+                    &::before{
+                        background-color: rgb(38, 42, 55);
+                    }
+                    &::after{
+                        background-color: rgb(38, 42, 55);
+                    }
+                    .line{
+                        background-color: rgb(38, 42, 55);
+                    }
+
+                    &:hover {
+                        width: 29px;
+                        margin: 0 18px;
+
+                        .line {
+                            opacity: 0;
+                            visibility: hidden;
+                        }
+
+                        &::before {
+                            top: 8px;
+                            left: -3px;
+                            transform: rotate(35deg);
+                        }
+
+                        &::after {
+                            transform: rotate(-35deg);
+                            bottom: 8px;
+                            left: -3px;
+                        }
+
+                        /*                         .phone-menu{
+                            visibility: visible;
+                            opacity: 1;
+                            position: absolute;
+                            right: 495px;
+                            top: 53px;
+                            width: 100%;
+                        } */
+                    }
+                }
+            }
+        }
+    }
+}
+
+//<!-- ------------------------------------------------------ -->
+
+@media(max-width: 400px) {
+    #header {
+        position: fixed;
+        background-color: rgb(255, 255, 255);
+
+
+        .nav-bar {
+            padding: 18px 0;
+            width: 40%;
+
+            .menu-box {
+                display: none;
+            }
+
+            .button-box {
+                a {
+                    font-size: 10px;
+                    line-height: 15px;
+                    padding: 10px 16px;
+                }
+
+                .menu-icon {
+                    display: block;
+                    background-color: white;
+                    &::before{
+                        background-color: rgb(38, 42, 55);
+                    }
+                    &::after{
+                        background-color: rgb(38, 42, 55);
+                    }
+                    .line{
+                        background-color: rgb(38, 42, 55);
+                    }
+
+                    &:hover {
+                        width: 29px;
+                        margin: 0 18px;
+
+                        .line {
+                            opacity: 0;
+                            visibility: hidden;
+                        }
+
+                        &::before {
+                            top: 8px;
+                            left: -3px;
+                            transform: rotate(35deg);
+                        }
+
+                        &::after {
+                            transform: rotate(-35deg);
+                            bottom: 8px;
+                            left: -3px;
+                        }
+
+                        /*                         .phone-menu{
+                            visibility: visible;
+                            opacity: 1;
+                            position: absolute;
+                            right: 495px;
+                            top: 53px;
+                            width: 100%;
+                        } */
+                    }
                 }
             }
         }

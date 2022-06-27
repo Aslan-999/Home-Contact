@@ -1,0 +1,628 @@
+@media (max-width: 576px) {
+    .texap-a {
+        .banner-shape {
+            top: 82%;
+        }
+
+        .banner-strock {
+            opacity: 0.5;
+        }
+
+        .back-text {
+            display: none;
+        }
+
+        .text-box {
+            top: 15%;
+
+            h1 {
+                font-size: 30px;
+                line-height: 40px;
+            }
+
+            a {
+                margin-left: 20px;
+            }
+        }
+
+        .image-box {
+            width: 80%;
+            position: absolute;
+            left: 50%;
+            top: 65%;
+            transform: translateX(-50%);
+
+            .big-image {
+                width: 100%;
+            }
+
+            .anima1 {
+                display: none;
+            }
+
+            .anima2 {
+                display: none;
+            }
+        }
+    }
+
+    .support-a {
+        .mini-box {
+            margin-top: 35px;
+
+        }
+    }
+
+    .about-a {
+        .about-anima {
+            display: none;
+        }
+
+        .about-image {
+            width: 100%;
+            margin-top: 30px;
+        }
+
+        .about-text {
+            margin-top: 50px;
+        }
+
+        .buttons {
+            margin-top: 60px;
+            text-align: center;
+        }
+
+    }
+
+    .features-a {
+
+        .top-text {
+            width: 100%;
+            margin: 0;
+
+            h1 {
+                font-size: 12px;
+                font-weight: 700;
+
+            }
+
+            h2 {
+                font-size: 25px;
+            }
+        }
+
+        .mini-box {
+            margin-top: 30px 0;
+        }
+    }
+
+    .progress-a {
+        .pr-text {
+
+            h1 {
+                font-size: 13px;
+
+            }
+
+            h2 {
+                font-size: 25px;
+
+            }
+
+            p {
+                font-size: 13px;
+                width: 100%;
+            }
+        }
+
+        .pr-image {
+            margin-top: 80px;
+        }
+    }
+
+    .screens-a {
+
+        .top-text {
+            width: 100%;
+
+            h1 {
+                font-size: 12px;
+                width: 100%;
+            }
+
+            h2 {
+                font-size: 25px;
+                line-height: 35px;
+                width: 100%;
+            }
+        }
+    }
+
+    .bestapp-a {
+        .width-box {
+            width: 90%;
+            margin: auto;
+        }
+
+
+        .app-anima {
+            display: none;
+        }
+
+        .app-image {
+            width: 100%;
+
+            .ba-img {
+                margin: auto;
+                width: 100%;
+            }
+        }
+
+        .right-box {
+            width: 90%;
+            margin: auto;
+
+            .app-text {
+                margin-top: 80px;
+
+                h1 {
+                    font-size: 22px;
+                    line-height: 32px;
+
+                }
+
+                p {
+                    font-size: 13px;
+                }
+            }
+
+            .icon-2 {
+                i {
+                    margin-right: 38px;
+                }
+            }
+
+            .buttons {
+                text-align: center;
+            }
+        }
+    }
+
+    .video-a {
+        margin-top: 120px;
+        position: relative;
+
+        .vd-image {
+            .vd-overlay {
+                display: none;
+            }
+
+            .vd-icon {
+                top: 35%;
+
+                i {
+                    font-size: 20px;
+                    padding: 25px 28px;
+                }
+            }
+
+        }
+    }
+
+    .pricing-a {
+        margin-top: 50px;
+
+        .top-text {
+            h1 {
+                font-size: 13;
+            }
+
+            h2 {
+                font-size: 25px;
+                line-height: 32px;
+            }
+        }
+
+        .pr-plan-2 {
+            margin-top: 30px;
+        }
+
+        .pr-plan-3 {
+            margin-top: 30px;
+        }
+    }
+
+    .download-a {
+        height: 60vh;
+
+        .down-text {
+            width: 100%;
+            padding: 20px 0;
+
+            span {
+                font-size: 13px;
+
+            }
+
+            h1 {
+                font-size: 28px;
+                line-height: 40px;
+            }
+        }
+
+        .down-image {
+            width: 100%;
+            margin-top: 70px;
+
+            img {
+                width: 100%;
+            }
+
+        }
+    }
+
+    .software-a {
+        margin-top: 40rem;
+
+        .soft-text {
+            h4 {
+                font-size: 14px;
+            }
+
+            h1 {
+                font-size: 28px;
+            }
+
+            p {
+                font-size: 14px;
+            }
+
+
+        }
+    }
+
+    .reviews-a {
+        .top.text {
+            width: 100%;
+
+            h1 {
+                font-size: 13px;
+            }
+
+            h2 {
+                font-size: 30px;
+                line-height: 40px;
+
+            }
+
+        }
+
+        .client-box {
+            margin-top: 20px;
+        }
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .texap-a {
+        .banner-shape {
+            top: 72%;
+        }
+
+        .banner-strock {
+            opacity: 0.5;
+        }
+
+        .back-text {
+            display: none;
+        }
+
+        .text-box {
+            top: 15%;
+
+            h1 {
+                font-size: 30px;
+                line-height: 40px;
+            }
+
+            a {
+                margin-left: 20px;
+            }
+        }
+
+        .image-box {
+            width: 60%;
+            position: absolute;
+            left: 45%;
+            top: 55%;
+            transform: translateX(-50%);
+
+            .big-image {
+                width: 100%;
+            }
+
+            .anima1 {
+                display: none;
+            }
+
+            .anima2 {
+                display: none;
+            }
+        }
+    }
+
+    .support-a {
+        .mini-box {
+            margin: 40px 30px;
+
+        }
+    }
+
+    .about-a {
+        .about-anima {
+            display: none;
+        }
+
+        .about-image {
+            width: 80%;
+            margin-top: 30px;
+        }
+
+        .about-text {
+            width: 90%;
+            margin-top: 50px;
+        }
+
+        .icons-text {
+            width: 90%;
+        }
+
+        .buttons {
+            margin-top: 60px;
+        }
+
+    }
+
+    .features-a {
+
+        .top-text {
+            width: 100%;
+            margin: 0;
+
+            h1 {
+                font-size: 12px;
+                font-weight: 700;
+
+            }
+
+            h2 {
+                font-size: 25px;
+            }
+        }
+
+        .mini-box {
+            margin: 30px 20px;
+        }
+    }
+
+    .progress-a {
+        .pr-text {
+
+            h1 {
+                font-size: 15px;
+
+            }
+
+            h2 {
+                font-size: 30px;
+
+            }
+
+            p {
+                font-size: 15px;
+                width: 100%;
+            }
+        }
+
+        .pr-image {
+            margin-top: 80px;
+            width: 90%;
+        }
+    }
+
+    .screens-a {
+
+        .top-text {
+            width: 100%;
+
+            h1 {
+                font-size: 12px;
+                width: 100%;
+            }
+
+            h2 {
+                font-size: 25px;
+                line-height: 35px;
+                width: 100%;
+            }
+        }
+    }
+
+    .bestapp-a {
+        .width-box {
+            width: 90%;
+            margin: auto;
+        }
+
+
+        .app-anima {
+            display: none;
+        }
+
+        .app-image {
+            width: 70%;
+            text-align: center;
+
+            .ba-img {
+                margin: auto;
+                width: 100%;
+            }
+        }
+
+        .right-box {
+            width: 90%;
+            margin: auto;
+
+            .app-text {
+                margin-top: 80px;
+
+                h1 {
+                    font-size: 25px;
+                    line-height: 32px;
+
+                }
+
+                p {
+                    font-size: 16px;
+                }
+            }
+
+            .icons-text {
+                h1 {
+                    font-size: 18px;
+                }
+
+                p {
+                    font-size: 16px;
+                }
+            }
+
+            .icon-2 {
+                i {
+                    margin-right: 38px;
+                }
+            }
+
+            .buttons {
+                margin-top: 50px;
+            }
+        }
+    }
+
+    .video-a {
+        margin-top: 120px;
+        position: relative;
+
+        .vd-image {
+            .vd-overlay {
+                display: none;
+            }
+
+            .vd-icon {
+                top: 35%;
+
+                i {
+                    font-size: 20px;
+                    padding: 25px 28px;
+                }
+            }
+
+        }
+    }
+
+    .pricing-a {
+        margin-top: 50px;
+
+        .top-text {
+            h1 {
+                font-size: 13;
+            }
+
+            h2 {
+                font-size: 25px;
+                line-height: 32px;
+            }
+        }
+
+        .pr-plan-2 {
+            margin-top: 30px;
+        }
+
+        .pr-plan-3 {
+            margin-top: 30px;
+        }
+    }
+
+    .download-a {
+        padding: 10px 0;
+
+        .down-text {
+            width: 100%;
+            padding: 20px 0;
+
+            span {
+                font-size: 15px;
+
+            }
+
+            h1 {
+                font-size: 30px;
+                line-height: 40px;
+            }
+
+            p {
+                font-size: 18px;
+            }
+        }
+
+        .down-image {
+            width: 100%;
+            margin-top: 70px;
+
+
+        }
+    }
+
+    .software-a {
+        padding: 100px 0 50px 0;
+
+        .soft-text {
+            h4 {
+                font-size: 14px;
+            }
+
+            h1 {
+                font-size: 28px;
+            }
+
+            p {
+                font-size: 14px;
+            }
+
+
+        }
+    }
+
+    .reviews-a {
+        .top.text {
+            width: 100%;
+
+            h1 {
+                font-size: 13px;
+            }
+
+            h2 {
+                font-size: 30px;
+                line-height: 40px;
+
+            }
+
+        }
+
+        .client-box {
+            margin-top: 20px;
+        }
+    }
+}
+
